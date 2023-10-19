@@ -1,0 +1,41 @@
+{
+	"info": {
+		"_postman_id": "4a3d917e-e94a-4ce6-8c32-79c81691ddf2",
+		"name": "Foritgate-TokenBase",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29254409"
+	},
+	"item": [
+		{
+			"name": "API GET LOGS",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer Q0knxH4qgfk9nptx8n5y0k53b4hNHp",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://127.0.0.1:5000/obtener-logs",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"obtener-logs"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
